@@ -8,7 +8,7 @@ ARG ROOT_CONTAINER=ubuntu:focal
 FROM $ROOT_CONTAINER
 
 LABEL maintainer="Jupyter Project <jupyter@googlegroups.com>"
-ARG NB_USER="jovyan"
+ARG NB_USER="angel"
 ARG NB_UID="1000"
 ARG NB_GID="100"
 
